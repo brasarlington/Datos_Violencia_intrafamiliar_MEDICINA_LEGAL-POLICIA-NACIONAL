@@ -119,7 +119,7 @@ if not df.empty:
             st.plotly_chart(fig_pie, use_container_width=True)
 
     # 3. CONTEXTO O MECANISMO
-    st.subheader("📊 Contexto del Hecho")
+    st.subheader("📊 MECANISMO DE AGRESIÓN")
     # Medicina legal suele tener columna 'ESCENARIO' o 'CONTEXTO'
     col_contexto = None
     for c in ['MECANISMO_AGRESION']:
@@ -130,7 +130,7 @@ if not df.empty:
     if col_contexto:
         top_contextos = df[col_contexto].value_counts().head(10).reset_index()
         top_contextos.columns = ['MECANISMO_AGRESION', 'CANTIDAD']
-        fig_bar = px.bar(top_contextos, x='CANTIDAD', y='CONTEXTO', orientation='h', color='CANTIDAD')
+        fig_bar = px.bar(top_contextos, x='CANTIDAD', y='MECANISMO_AGRESION', orientation='h', color='CANTIDAD')
         fig_bar.update_layout(yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig_bar, use_container_width=True)
     else:
