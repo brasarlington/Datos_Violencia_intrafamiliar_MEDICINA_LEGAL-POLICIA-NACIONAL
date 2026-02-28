@@ -122,7 +122,7 @@ if not df.empty:
     st.subheader("📊 Contexto del Hecho")
     # Medicina legal suele tener columna 'ESCENARIO' o 'CONTEXTO'
     col_contexto = None
-    for c in ['ESCENARIO', 'ESCENARIO HECHO', 'CONTEXTO', 'MECANISMO_AGRESION']:
+    for c in ['MECANISMO_AGRESION']:
         if c in df.columns:
             col_contexto = c
             break
