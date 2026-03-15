@@ -9,7 +9,7 @@
 
 Este proyecto es una aplicación web interactiva diseñada para analizar y visualizar los datos de violencia intrafamiliar en Colombia. La herramienta consolida información reportada por entidades oficiales como la **Policía Nacional** y el **Instituto Nacional de Medicina Legal**.
 
-El objetivo es facilitar la comprensión de patrones, tendencias temporales y distribución geográfica de los casos reportados, permitiendo a investigadores y ciudadanos explorar la data de manera intuitiva.
+El objetivo es facilitar la comprensión de patrones, tendencias temporales y distribución geográfica de los casos reportados, permitiendo a investigadores y ciudadanos explorar los datos de manera intuitiva.
 
 🔗 **[Ver la aplicación en vivo aquí](https://datosviolenciaintrafamiliarmedicinalegal-policia-nacional-kmnz.streamlit.app/)**
 
