@@ -35,7 +35,7 @@ El proyecto fue construido utilizando 100% Python con las siguientes librerías 
 ## 📂 Estructura del Repositorio
 
 ```text
-├── streamlit_app.py                # Código fuente principal de la aplicación
+├── streamlit_app.py      # Código fuente principal de la aplicación
 ├── requirements.txt      # Dependencias necesarias para ejecutar el proyecto
 ├── datos_medicinal.csv   # Dataset de Medicina Legal (o enlace al mismo)
 ├── README.md             # Documentación del proyecto
